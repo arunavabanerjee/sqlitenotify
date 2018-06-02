@@ -1,0 +1,11 @@
+
+//drop
+DROP TABLE IF EXISTS SCHEMA.TABLENAME;
+$sql = 'DROP TABLE IF EXISTS '.$tablename.';';
+The DROP TABLE statement removes a table added with the CREATE TABLE statement. 
+The name specified is the table name. 
+The dropped table is completely removed from the database schema and the disk file. 
+The table can not be recovered. All indices and triggers associated with the table are also deleted.
+The optional IF EXISTS clause suppresses the error that would normally result if the table does not exist.
+
+
